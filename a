@@ -1,5 +1,0 @@
-python3.7 fusee-launcher.py hekate_ctcaer_5.1.1.bin
-
-sudo chflags -R noarch /Volumes/Switch/Nintendo/
-
-sudo chflags -R arch /Volumes/Switch/

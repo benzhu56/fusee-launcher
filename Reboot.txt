@@ -1,0 +1,11 @@
+# Note: this is cmd used to reboot the Switch when battery runs out.
+
+python3 fusee-launcher.py hekate_ctcaer_5.1.1.bin
+
+# run following if you don't have libusb installed already in your system
+brew install libusb
+
+# other possible permission errors when copying games
+sudo chflags -R noarch /Volumes/Switch/Nintendo/
+
+sudo chflags -R arch /Volumes/Switch/
